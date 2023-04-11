@@ -1,0 +1,74 @@
+@media (max-width: 720px) {
+    .col-sm-6 {
+      width: 50%;
+    }
+    .hedtwo{
+        display: none
+    }
+    .hedbot{
+        display: block;
+    }
+  }
+
+
+}
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");        
+button
+*{
+    
+}
+
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+/* Header */
+
+.midh{
+    background-color: #ffffff;
+}
+
+.both{
+    background-color: #243238;
+}
+
+.heading{
+    padding-top: 30px;
+}
+
+.berita{
+    margin-left: 30px;
+}
+.kegiatan{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.img-fluid{
+    height: auto;
+}
+.textconten{
+    margin-left: 30px;
+}
+
+.textconte{
+    margin-bottom: 50px;
+}
+    .hedbot{
+        display: none
+    }    
+    .hedtwo{
+    display: block;
+    } 
+.col-md-3{
+    margin-bottom: 30px;
+}
+
+/*Footer*/
+.foote{
+    margin-top: 50pt; 
+    background-color: #F1F1F1;
+}
+.containerf{
+    margin-bottom: 50px;
+}
