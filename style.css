@@ -3,21 +3,9 @@
       width: 50%;
     }
     .hedtwo{
-        display: none
+        display: none;
     }
-    .hedbot{
-        display: block;
-    }
-  }
-
-
 }
-@import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");        
-button
-*{
-    
-}
-
 
 html, body {
     max-width: 100vw;
@@ -25,6 +13,9 @@ html, body {
 }
 /* Header */
 
+.bayu{
+    display: flex;
+}
 .midh{
     background-color: #ffffff;
 }
@@ -32,7 +23,11 @@ html, body {
 .both{
     background-color: #243238;
 }
-
+.seta{
+    margin-left: 30px;
+    max-width: 100%;
+    width: 300px;
+}
 .heading{
     padding-top: 30px;
 }
@@ -48,18 +43,11 @@ html, body {
     height: auto;
 }
 .textconten{
-    margin-left: 30px;
 }
 
 .textconte{
     margin-bottom: 50px;
 }
-    .hedbot{
-        display: none
-    }    
-    .hedtwo{
-    display: block;
-    } 
 .col-md-3{
     margin-bottom: 30px;
 }

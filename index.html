@@ -1,70 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web ti unri</title>
-    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-  <!-- Header -->
-  <nav class="toph navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="hedtwo container justify-content-end">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="universitas.html">Universitas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="fakultas.html">Fakultas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="jurusan.html">Jurusan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="unduhbrosur.html">Unduh Brosur</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pendaftaran.html">Pendaftaran</a>
-        </li>
-      </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web ti unri</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- bg header -->
+  <div class="bgheader">
+    <ul class="gap-3">
+      <li><a href="universitas.html">Universitas</a> </li>
+      <li><a href="fakultas.html">Fakultas</a></li>
+      <li><a href="jurusan.html">Jurusan</a></li>
+      <li><a href="unduhbrosur.html">Unduh Brosur</a></li>
+      <li><a href="pendaftaran.html">Pendaftaran</a></li>
+    </ul>
+  </div>
+
+  <!-- Header utama -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid gap-5 px-5">
+      <img class="logo" src="asset/logo-ti.jpg" alt="logo ini">
+      <div class="hedtop collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Beranda</a>
+          <a class="nav-link" href="profil.html">Profil</a>
+          <a class="nav-link" href="akademik.html">Akademik</a>
+          <a class="nav-link" href="sertifikasi.html">Sertifikasi</a>
+          <a class="nav-link" href="galeri.html">Galeri</a>
+          <a class="nav-link" href="kontak.html">Kontak</a>
+        </div>
+      </div>
     </div>
   </nav>
-  
-  <!-- Header 2 -->
-  <nav class="midh navbar navbar-expand-md">
-    <div class="container d-flex justify-content-between vw-100">
-      <a class="navbar-brand" href="index.html"> <img srcset="asset/logo-ti.jpg" style="width: 100px; height: 50px; margin-left: 30px;" alt="jaaringankau salahtu"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button></div>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav px-5">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color: #243238;">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="profil.html" style="color: #243238;">Profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="akademik.html" style="color: #243238;">Akademik</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sertifikasi.html" style="color: #243238;">Sertifikasi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galeri.html" style="color: #243238;">Galeri</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kontak.html" style="color: #243238;">Kontak</a>
-          </li>
-        </ul>
-    </div>
-  </nav>
-  <!-- header 3 -->
-  <div class="both navbar navbar-expand-sm bg-dark navbar-dark pt-4"></div>
+
+  <!-- bg header2 -->
+  <div class="bgheader"></div>
+
   <!-- SlideShow -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
@@ -93,126 +70,129 @@
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
+
   <!-- content judul -->
-  <div style="background-color: #F1F1F1;">
-  <div class="heading w-50 mx-auto">
-    <h3 class="ani text-center">Ani Mardhatilah, Mahasiswa Teknik Informatika Juara 1 Lomba MTQ Kecamatan</h3>
-  </div>
-  <div class="content d-flex flex-wrap mt-2 gap-5 mb-2 justify-content-center">
-    <img srcset="asset/home1.jpg" class="img-fluid" alt="ppp" style="margin-left: 30px; max-width: 100%;" width="300px">
-    <p class="textconten w-50" >Ani Mardhatillah, mahasiswa Teknik Informatika UNRI menjadi juara 1 pada lomba Musabaqah Tilawatil Quran (MTQ)  ke IV Tingkat Kecamatann Bathin Solapan, Kabupaten Bengkalis. Acara ini diselenggarakan mulai tanggal 16-23 September 2022 di Kantor Camat Bathin Solapan.</p>
+  <div class="konten">
+    <div>
+      <h3 class="kontenjudul">Ani Mardhatilah, Mahasiswa Teknik Informatika Juara 1 Lomba MTQ Kecamatan</h3>
+    </div>
+    <div class="kontenblok">
+      <img src="asset/home1.jpg" class="kontengambar img-fluid" alt="ppp">
+      <p class="kontenteks">Ani Mardhatillah, mahasiswa Teknik Informatika UNRI menjadi juara 1 pada lomba Musabaqah
+        Tilawatil Quran (MTQ) ke IV Tingkat Kecamatann Bathin Solapan, Kabupaten Bengkalis. Acara ini diselenggarakan
+        mulai tanggal 16-23 September 2022 di Kantor Camat Bathin Solapan. <br> Ketua Prodi Teknik Informatika, Dr. Feri
+        Candra turut mengapresiasi perolehan ini “Capaian ini sangat positif, dari Prodi mendukung berbagai bentuk
+        prestasi Mahasiswa baik dibidang akademis maupun non akademis”. <br>Ani Mardhatillah meraih Juara 1 pada Cabang
+        Tilawah Al Quran Golongan Remaja Putri. Selanjutnya, Ani akan mewakili kecamatan Bathin Solapan pada MTQ Kab.
+        Bengkalis ke 47 yang rencana nya akan diselenggarakan pada tanggal 14 November 2022 di Kecamatan Bukit Batu,
+        Kabupaten Bengkalis. Selamat dan semangat menorehkan prestasi.</p>
     </div>
     <div class="tbl d-flex w-100 align-items-center justify-content-center">
-    <button class="button mx-auto position-relative" style="border-color: blue; color: blue; margin-bottom: 30px;"></a> selengkapnya</button></div>
+      <button class="button mx-auto position-relative"
+        style="border-color: blue; color: blue; margin-bottom: 30px;"></a> selengkapnya
+      </button>
+    </div>
   </div>
-<!-- berita dan kegiatan -->
-<div class="navbar navbar-collapse">
-<h3 class="berita">Berita & kegiatan</h3>
-<div class="kegiatan d-flex flex-wrap mt-2 mb-2 row align-items-start">
-  <div class="container col-12 col-md-6 col-lg-4 p-0">
-  <img srcset="asset/homeevent1.jpg" class="img-fluid rounded w-75" style="order: 2; max-width: 100%;">
-  <p class="textconte w-75">Prof. Dr. Azriyenni, ST, M.Eng merupakan Guru Besar pertama bidang Teknik Elektro di Riau. Azriyenni dikukuhkan sebagai Guru Besar dalam Bidang Ilmu Transmisi dan Distribusi Tenaga Listrik pada Fakultas Teknik Universitas Riau, Selasa (14/6/2022). Dengan demikian dia menjadi profesor kelistrikan pertama di Riau.</p>
-</div>
-<div class="container col-12 col-md-6 col-lg-4 p-0" >
-  <img srcset="asset/homeevent2.jpg" class="img-fluid rounded w-75" style="order: 1; max-width: 100%;">
-   <p class="textconte w-75">Dr. Irsan Taufik Ali, ST., MT meraih gelar Doktor di bidang Artificial Intelligence khususnya Deep Learning. Beliau merupakan Doktor ke-3 di Prodi Teknik Informatika dan Doktor ke-11 di Jurusan Teknik Elektro. Hari Senin, 19 Juli 2021, Dr. Irsan Taufik Ali, ST., MT dipromosikan dalam gelar Doktornya dalam sidang yang dilaksanakan di Departemen Teknik Elektro Fakultas Teknik Universitas Indonesia.</p>
-</div>
-  <div class="container col-12 col-md-6 col-lg-4 p-0">
-  <img srcset="asset/homeevent3.jpg" class="img-fluid rounded w-75" style="order: 3; max-width: 100%;">   
-  <p class="textconte w-75">Program Studi Teknik Informatika Universitas Riau kembali bekerja sama dengan Kementerian Komunikasi dan Informatika RI menyelenggarakan Program Fresh Graduate Academy Digital Talent Scholarship (FGA DTS) Tahun 2022. Tahun ini,  pelatihan terselenggara di 57 Perguruan Tinggi baik negeri maupun swasta yang tersebar di seluruh Indonesia.</p>
-</div>
-</div>
- </div>
- <div class="tbl d-flex w-100 align-items-center justify-content-center">
-  <button class="button mx-auto position-relative" style="border-color: blue; color: blue; margin-bottom: 30px;"></a> selengkapnya</button></div>
+  <!-- berita dan kegiatan -->
+  <div class="navbar navbar-collapse">
+    <h3 class="beritajudul">Berita & kegiatan</h3>
+    <div class="kegiatan row">
+      <div class="Event col">
+        <img srcset="asset/homeevent1.jpg" class="gambarko img-fluid" style="order: 2;">
+        <p class="eventteks">Prof. Dr. Azriyenni, ST, M.Eng merupakan Guru Besar pertama bidang Teknik Elektro di Riau.
+          Azriyenni dikukuhkan sebagai Guru Besar dalam Bidang Ilmu Transmisi dan Distribusi Tenaga Listrik pada
+          Fakultas Teknik Universitas Riau, Selasa (14/6/2022). Dengan demikian dia menjadi profesor kelistrikan pertama
+          di Riau.</p>
+      </div>
+      <div class="Event col">
+        <img srcset="asset/homeevent2.jpg" class="gambarko img-fluid" style="order: 1;">
+        <p class="eventteks">Dr. Irsan Taufik Ali, ST., MT meraih gelar Doktor di bidang Artificial Intelligence
+          khususnya Deep Learning. Beliau merupakan Doktor ke-3 di Prodi Teknik Informatika dan Doktor ke-11 di Jurusan
+          Teknik Elektro. Hari Senin, 19 Juli 2021, Dr. Irsan Taufik Ali, ST., MT dipromosikan dalam gelar Doktornya
+          dalam sidang yang dilaksanakan di Departemen Teknik Elektro Fakultas Teknik Universitas Indonesia.</p>
+      </div>
+      <div class="Event col">
+        <img srcset="asset/homeevent3.jpg" class="gambarko img-fluid" style="order: 3;">
+        <p class="eventteks">Program Studi Teknik Informatika Universitas Riau kembali bekerja sama dengan Kementerian
+          Komunikasi dan Informatika RI menyelenggarakan Program Fresh Graduate Academy Digital Talent Scholarship (FGA
+          DTS) Tahun 2022. Tahun ini, pelatihan terselenggara di 57 Perguruan Tinggi baik negeri maupun swasta yang
+          tersebar di seluruh Indonesia.</p>
+      </div>
+    </div>
+  </div>
+  <div class="tbl d-flex w-100 align-items-center justify-content-center">
+    <button class="button mx-auto position-relative" style="border-color: blue; color: blue; margin-bottom: 30px;"></a>
+      selengkapnya</button>
+  </div>
+  <!-- mitra -->
+  <h3 class="kemitraan">KEMITRAAN</h3>
+  <div class="mitra gap-5">
+    <div class="col">
+      <img src="asset/mitra1.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra2.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra3.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra4.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra5.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra6.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra7.jpg">
+    </div>
+    <div class="col">
+      <img src="asset/mitra8.jpg">
+    </div>
+  </div>
 
-  <div class="hedbot navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav px-5">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Beranda</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="profil.html">Profil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="akademik.html">Akademik</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="sertifikasi.html">Sertifikasi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="galeri.html">Galeri</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="kontak.html">Kontak</a>
-      </li>
+  <div class="mobile">
+    <ul class="gap-3">
+      <li><a href="universitas.html">Universitas</a> <img src="asset/ikon.jpg" alt=""></li>
+      <li><a href="fakultas.html">Fakultas</a> <img src="asset/ikon.jpg" alt=""></li>
+      <li><a href="jurusan.html">Jurusan</a><img src="asset/ikon.jpg" alt=""></li>
+      <li><a href="unduhbrosur.html">Unduh Brosur</a><img src="asset/ikon.jpg" alt=""></li>
+      <li><a href="pendaftaran.html">Pendaftaran</a><img src="asset/ikon.jpg" alt=""></li>
     </ul>
-</div>
-
-<!-- mitra -->
-<h3 style="margin-top: 30pt; margin-left: 50px;">KEMITRAAN</h3>
-<div class="container" style="text-align: center;">
-  <div class="row">
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra1.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra2.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra3.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra4.jpg" class="img-fluid rounded">
-    </div>
   </div>
-  <div class="row">
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra5.jpg" class="img-fluid rounded">
+  <!-- footer -->
+  <div class="bgfooter">
+    <div class="footer">
+      <div>
+        <h5 class="headingfoot">Gedung C Lantai 2 Fakultas Teknik Universitas Riau</h5>
+        <div class="Gedung">
+          <img src="asset/gedungc.jpg" alt="Gedung C">
+          <p class="alamat">Jl HR Soebrantas KM 12,5 Simpang Baru, Binawidya, Pekanbaru -28193 E-mail:
+            Informatika@eng.unri.ac.id</p>
+        </div>
+      </div>
+      <div>
+        <h5 class="headingfoot">S1 Teknik Informatika</h5>
+        <ul>
+          <li>Event</li>
+          <li>Prestasi Mahasiswa</li>
+          <li>Berita</li>
+          <li>Tutorial</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="headingfoot">Link Terkait</h5>
+        <ul>
+          <li>Beasiswa</li>
+          <li>Konferensi Internasional</li>
+          <li>Tracer Study</li>
+        </ul>
+      </div>
     </div>
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra6.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra7.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <img srcset="asset/mitra8.jpg" class="img-fluid rounded">
-    </div>
+    <h5 class="bukanheading">Copyright ALL Right Reserved 2021</h5>
   </div>
-</div>
-<!-- footer -->
-<div class="foote d-flex flex-wrap mt-2 row align-items-start gap-5 px-5">
-  <div class="containerf col w-100">
-    <h5 class="pane w-100">Gedung C Lantai 2 Fakultas Teknik Universitas Riau</h5>
-    <div class="container d-flex gap-3">
-    <img srcset="asset/gedungc.jpg" alt="Gedung C" width="80px" height="50px">
-   <p class="gac w-100">Jl HR Soebrantas KM 12,5 Simpang Baru, Binawidya, Pekanbaru -28193 E-mail: Informatika@eng.unri.ac.id 
-   </p> 
-  </div>
-  </div>
- <div class="containerf col w-100">
-  <h5 class="eve mb-4">S1 Teknik Informatika</h5>
-  <ul>  
-    <li>Event</li>
-    <li>Prestasi Mahasiswa</li>
-    <li>Berita</li>
-    <li>Tutorial</li>
-  </ul>
- </div>
- <div class="containerf col w-100">
-  <h5 class="wer mb-4">Link Terkait</h5>
-  <ul>
-    <li>Beasiswa</li>
-    <li>Konferensi Internasional</li>
-    <li>Tracer Study</li>
-  </ul>
- </div>
-</div>
-
-<h5 style="background-color: #F1F1F1; color: #848482; padding-top: 70pt; padding-left: 30pt;">Copyright ALL Right Reserved 2021</h5>
-
-  <!-- js -->
-  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
