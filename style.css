@@ -24,11 +24,16 @@
         display: flex;
         flex-direction: column;
         padding: 20px;
+        padding-top: 5px;
+        gap: 20px;
     }
     .gambarko{
-        width: 150px;
-        padding-right: 100px;
-        padding-left: 100px;
+        width: 250px;
+        align-self: center;
+    }
+    .Event{
+        display: flex;
+        flex-direction: column;
     }
     .bgheader{
         background-color: #243238;
@@ -54,11 +59,17 @@
         color: grey;
         font-size: 15px;
     }
+    .mobile ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
     .mobile ul li{
         display: flex;
         justify-content: space-between;
         padding-right: 10px;
         list-style: none;
+
     }
     .mobile ul li a{
         color: black;
