@@ -8,11 +8,12 @@
   <title>web ti unri</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 
 <body>
   <!-- bg header -->
-  <div class="bgheader">
+  <div class="bgheader atas">
     <ul class="gap-3">
       <li><a href="universitas.html">Universitas</a> </li>
       <li><a href="fakultas.html">Fakultas</a></li>
@@ -23,10 +24,10 @@
   </div>
 
   <!-- Header utama -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar piring navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid gap-5 px-5">
       <img class="logo" src="asset/logo-ti.jpg" alt="logo ini">
-      <div class="hedtop collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="hedtop" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link" href="index.html">Beranda</a>
           <a class="nav-link" href="profil.html">Profil</a>
@@ -36,11 +37,14 @@
           <a class="nav-link" href="kontak.html">Kontak</a>
         </div>
       </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
   </nav>
 
   <!-- bg header2 -->
-  <div class="bgheader"></div>
+  <div class="bgheader bawah"></div>
 
   <!-- SlideShow -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -62,7 +66,7 @@
         <img srcset="asset/slideshow5.jpg" alt="Gambar 5" class="w-100">>
       </div>
     </div>
-    <!-- Left and right controls -->
+    <!-- Left and right controls --> 
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </button>
@@ -163,6 +167,7 @@
     </ul>
   </div>
   <!-- footer -->
+
   <div class="bgfooter">
     <div class="footer">
       <div>
@@ -173,6 +178,7 @@
             Informatika@eng.unri.ac.id</p>
         </div>
       </div>
+      <div class="garis"></div>
       <div>
         <h5 class="headingfoot">S1 Teknik Informatika</h5>
         <ul>
@@ -182,6 +188,7 @@
           <li>Tutorial</li>
         </ul>
       </div>
+      <div class="garis"></div>
       <div>
         <h5 class="headingfoot">Link Terkait</h5>
         <ul>
@@ -191,8 +198,14 @@
         </ul>
       </div>
     </div>
+    <div class="garis"></div>
     <h5 class="bukanheading">Copyright ALL Right Reserved 2021</h5>
   </div>
+  <div class="scroll">
+    <a href="#myCarousel"><img class="topcoy" src="icon/top.jpg" alt="icon"></a>
+  </div>
+
+  <script src="./script.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
