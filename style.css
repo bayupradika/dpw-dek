@@ -86,6 +86,10 @@
     .bukanheading{
         color: grey;
         font-size: 15px;
+        margin-left: 25px;
+    }
+    .batas{
+        margin-left: 25px;
     }
     .mobile ul{
         display: flex;
@@ -127,10 +131,11 @@
         width: 370px;
     }
     .scroll{
-        display: contents;
-        z-index: 100000;
-        position: fixed;
-        
+        display: block;
+        z-index: 1000;
+        position: relative;
+        right: 40px;
+        bottom: 40px;
     }
     .topcoy{
         width: 40px;
@@ -262,5 +267,19 @@
     }
     .scroll{
         display: none;
+    }
+
+    /* GALERI-FOTO */
+    .konteur{
+        display: flex;
+        justify-content: center;
+    }
+    .bargaleri{
+        padding-top: 60px;
+        padding-right: 50px;
+    }
+    .foto{
+        width: 300px;
+        padding: 20px;
     }
 }
