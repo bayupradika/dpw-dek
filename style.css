@@ -132,10 +132,10 @@
     }
     .scroll{
         display: block;
-        z-index: 1000;
-        position: relative;
-        right: 40px;
-        bottom: 40px;
+        z-index: 10000;
+        position: static;
+        right: 30px;
+        bottom: 30px;
     }
     .topcoy{
         width: 40px;
@@ -246,7 +246,7 @@
     .footer{
         display: flex;
         justify-content: center;
-        gap: 140px;
+        gap: 80px;
         padding-right: 20px;
         min-width: 721px;
     }
@@ -272,7 +272,7 @@
     /* GALERI-FOTO */
     .konteur{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
     .bargaleri{
         padding-top: 60px;
