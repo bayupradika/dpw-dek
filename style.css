@@ -177,6 +177,7 @@
     /* konten */
     .konten{
         padding-top: 30px;
+        background-color: #f1f1f1;
     }
     .kontenjudul{
         text-align: center;
@@ -190,9 +191,6 @@
 
     .kontengambar{
         width: 300px;
-    }
-    .kontenteks{
-        width: 800px;
     }
     /* event */
     .beritajudul{
