@@ -141,6 +141,14 @@
         width: 40px;
         height: 40px;
     }
+    .fotok{
+        width: 50px;
+    }
+    .bargaleri{
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 @media screen and (max-width:100vw) and (min-width:721px) {
     /* bg header */
@@ -188,7 +196,11 @@
         padding-top: 25px;
         gap: 50px;
     }
-
+    .kontenteks{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
     .kontengambar{
         width: 300px;
     }
@@ -270,14 +282,46 @@
     /* GALERI-FOTO */
     .konteur{
         display: flex;
-        justify-content: space-around;
+        justify-content:center;    
     }
     .bargaleri{
-        padding-top: 60px;
-        padding-right: 50px;
+        padding-top: 50px;
+        padding-right: 20px;
     }
-    .foto{
+    .fotok{
         width: 300px;
         padding: 20px;
+    }
+
+    /* berita&informasi */
+    .totberita{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .infoterkini{
+        padding: 10px;
+        width: 120%;
+        border: 2px solid rgba(59, 55, 55, 0.295);
+    }
+    .berkeg{
+        padding: 10px;
+        width: 80%;
+        border: 2px solid rgba(59, 55, 55, 0.295);
+    }
+    .eventni{
+        gap: 5px;
+        padding: 20px 10px 10px 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .infojudul{
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    .judul{
+        font-weight: 500;
+        font-size: medium;
     }
 }
