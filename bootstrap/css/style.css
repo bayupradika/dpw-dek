@@ -323,5 +323,20 @@
     .judul{
         font-weight: 500;
         font-size: medium;
+        text-align: center;
+    }
+
+    /* DOSEN */
+    .fotodos{
+        width: 250px;
+        align-self: center;
+    }
+    .prestasi_mahasiswa{
+        max-width: min-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .teksgo{
+        padding: 20px;
     }
 }
