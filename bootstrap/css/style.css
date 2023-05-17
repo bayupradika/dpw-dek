@@ -149,6 +149,9 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .merek{
+        margin-top: 66px;
+    }
 }
 @media screen and (max-width:100vw) and (min-width:721px) {
     /* bg header */
@@ -346,5 +349,8 @@
     }
     .teksgo{
         padding: 20px;
+    }
+    .dropdown-toggle::after{
+        display: none !important;
     }
 }
