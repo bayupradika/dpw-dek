@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>web ti unri</title>
+  <title>teknik informatika unri-berita</title>
   <link rel="stylesheet" href="../bootstrap/css/style.css">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../fontawesome/css/all.min.css">
@@ -15,26 +14,72 @@
   <!-- bg header -->
   <div class="bgheader atas">
     <ul class="gap-3">
-      <li><a href="universitas.html">Universitas</a> </li>
-      <li><a href="fakultas.html">Fakultas</a></li>
-      <li><a href="jurusan.html">Jurusan</a></li>
-      <li><a href="unduhbrosur.html">Unduh Brosur</a></li>
-      <li><a href="pendaftaran.html">Pendaftaran</a></li>
+      <li><a href="https://unri.ac.id/">Universitas</a> </li>
+      <li><a href="https://ft.unri.ac.id/">Fakultas</a></li>
+      <li><a href="https://ee.ft.unri.ac.id/">Jurusan</a></li>
+      <li><a href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf">Unduh Brosur</a></li>
+      <li><a href="https://pmb.unri.ac.id/">Pendaftaran</a></li>
     </ul>
   </div>
-
-  <!-- Header utama -->
   <nav class="navbar piring navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid gap-5 px-5">
+    <div class="container gap-5">
       <img class="logo" src="../asset/logo-ti.jpg" alt="logo ini">
       <div class="hedtop" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="index.html">Beranda</a>
-          <a class="nav-link" href="profil.html">Profil</a>
-          <a class="nav-link" href="akademik.html">Akademik</a>
-          <a class="nav-link" href="sertifikasi.html">Sertifikasi</a>
-          <a class="nav-link" href="foto.html">Galeri</a>
-          <a class="nav-link" href="kontak.html">Kontak</a>
+        <div class="navbar-nav ">
+          <a href="../index.html" class="asist">Beranda</a>
+          <a class="nav-link" href="#">
+          <div class="dropdown">
+            <a class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Profil
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+              <li><a class="dropdown-item" href="../profile/sejarah.html">Sejarah</a></li>
+              <li><a class="dropdown-item" href="../profile/visimisi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="../profile/tujuan.html">Tujuan</a></li>
+              <li><a class="dropdown-item" href="../profile/sasaran.html">Sasaran</a></li>
+              <li><a class="dropdown-item" href="../profile/strategi.html">Strategi</a></li>
+              <li><a class="dropdown-item" href="../profile/akreditasi.html">Akreditasi</a></li>
+              <li><a class="dropdown-item" href="../profile/dosen.html">Dosen</a></li>
+              <li><a class="dropdown-item" href="../profile/tenaga_pendidik.html">Tenaga Kependidikan</a></li>
+              <li><a class="dropdown-item" href="../profile/labrpl.html">Lab.RPL</a></li>
+              <li><a class="dropdown-item" href="../profile/lab_komjar.html">Lab.Komputer & Jaringan</a></li>
+            </ul>
+          </div></a>
+          <a class="nav-link" href="#">
+            <div class="dropdown">
+              <a class="btn " type="" data-bs-toggle="dropdown" aria-expanded="false">
+                Akademik
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="produkDropdown">
+                <li><a class="dropdown-item" href="../beranda/berita.html">Berita</a></li>
+                <li><a class="dropdown-item" href="../beranda/event.html">Event</a></li>
+                <li><a class="dropdown-item" href="../akademik/prestasi_mahasiswa.html">Prestasi Mahasiswa</a></li>
+                <li><a class="dropdown-item" href="../akademik/jadwal_kuliah.html">Jadwal Kuliah</a></li>
+                <li><a class="dropdown-item" href="../akademik/kalender_akademik.html">Kalender Akademik</a></li>
+                <li><a class="dropdown-item" href="../akademik/kurikulum.html">Kurikulum</a></li>
+              </ul>
+            </div></a>
+          <a class="nav-link" href="#">
+            <div class="dropdown">
+              <a class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sertifikasi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../akademik/mikrotik_akademy.html">Mikrotik Akademy</a></li>
+              </ul>
+            </div></a>
+          <a class="nav-link" href="#">
+            <div class="dropdown">
+              <a class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galeri
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+                <li><a class="dropdown-item" href="../foto.html">Foto</a></li>
+                <li><a class="dropdown-item" href="../video.html">Video</a></li>
+                <li><a class="dropdown-item" href="../virtualtour.html">Virtual Tour</a></li>
+              </ul>
+            </div></a>
+          <a class="asist2" href="../kontak.html">Kontak</a>
         </div>
       </div>
       <div class="hamburger">
@@ -44,7 +89,7 @@
   </nav>
 
   <!-- bg header2 -->
-  <div class="bgheader bawah"></div>
+  <div class="bgheader bawah" id="topgengs"></div>
   <div style="background-color: #f1f1f1;">
   <div class="merek">
     <img src="../asset/category-berita.jpg" width="100%" height="auto" alt="postingan">
@@ -246,9 +291,10 @@
       <li><a href="pendaftaran.html">Pendaftaran</a><img src="../asset/ikon.jpg" alt=""></li>
     </ul>
   </div>
-  <!-- footer -->
 
-  <div class="bgfooter">
+  
+  <!-- footer -->
+  <div class="bgfooter" >
     <div class="footer">
       <div>
         <h5 class="headingfoot">Gedung C Lantai 2 Fakultas Teknik Universitas Riau</h5>
@@ -265,26 +311,25 @@
           <li>Event</li>
           <li>Prestasi Mahasiswa</li>
           <li>Berita</li>
-          <li>Tutorial</li>
+          <li>Kurikulum</li>
+          <a href="#topgengs"><img class="topcoy" src="../icon/top.jpg" alt="icon"></a>
         </ul>
       </div>
       <div class="garis"></div>
       <div>
-        <h5 class="headingfoot">Link Terkait</h5>
+        <br><br>
         <ul>
-          <li>Beasiswa</li>
-          <li>Konferensi Internasional</li>
-          <li>Tracer Study</li>
+          <li>Jadwal kuliah</li>
+          <li>Kalender akademik</li>
+          <li>Mikrotik akademy</li>
+          
         </ul>
       </div>
     </div>
-    <div class="garis batas"></div>
+    <div class="garis"></div>
     <h5 class="bukanheading">Copyright ALL Right Reserved 2021</h5>
-  </div>
-  <div class="scroll">
-    <a href="#myCarousel"><img class="topcoy" src="../icon/top.jpg" alt="icon"></a>
-  </div>
-  
+    
+  </div> 
   <script src="../bootstrap/js/script.js"></script>
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

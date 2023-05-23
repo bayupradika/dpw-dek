@@ -1,8 +1,13 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 @media (max-width:720px) {
     *{
         font-size: 9px;
     }
-    .kontengambar{
+
+    .kontengambar:hover{
         padding: 20px;
         padding-bottom: 0px;
     }
@@ -48,21 +53,21 @@
         position: fixed;
         width: 100%;
         height: max-content;
-        z-index: 20;
-        top: 15px;
+        z-index: 200;
+        top: 15px;    
     }
 
     .bgheader.bawah{
         background-color: #243238;
         height: 15px;
         position: fixed;
-        top: 55px;
+        top: 50px;
         width: 100%;
         z-index: 20;
     }
 
     #myCarousel{
-        margin-top: 70px;
+        margin-top: 65px;
     }
 
     .bgheader ul li{
@@ -88,9 +93,6 @@
         font-size: 15px;
         margin-left: 25px;
     }
-    .batas{
-        margin-left: 25px;
-    }
     .mobile ul{
         display: flex;
         flex-direction: column;
@@ -114,6 +116,7 @@
     .hamburger {
         display: block;
         font-size: small;
+        padding-right: 10px;
     }
 
     .hedtop {
@@ -129,18 +132,15 @@
     .garis{
         background-color: black;
         height: 3px;
-        width: 370px;
-    }
-    .scroll{
-        display: block;
-        z-index: 10000;
-        position: static;
-        right: 30px;
-        bottom: 30px;
+        width: 80%;
     }
     .topcoy{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+        display: block;
+        position:absolute;
+        z-index: 10;
+        right: 20px;
     }
     .fotok{
         width: 50px;
@@ -153,8 +153,49 @@
     .merek{
         margin-top: 66px;
     }
+    .slideshowges{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        width: auto;
+    }
+    .carousel-item{
+        width: 100%;
+    }
+    .gambr{
+        width: 100%;
+    }
+
+      
+    .asist{
+        text-decoration: none;
+        color: black;
+        padding-left: 8px;
+    }
+      
+    .asist2{
+        text-decoration: none;
+        color: black;
+        padding-top: 14px;
+        padding-left: 7px;
+    }
 }
 @media screen and (max-width:100vw) and (min-width:721px) {
+    .asist2{
+        text-decoration: none; 
+        color: black; 
+        padding-top: 22px; padding-left: 20px;
+    }
+    .asist{
+        text-decoration: none; 
+        color: black; 
+        padding-top: 22px; 
+        padding-right: 10px;
+    }
     /* bg header */
     .bgheader{
         background-color: #243238;
@@ -279,9 +320,6 @@
         color: grey;
         padding-top: 80px;
     }
-    .scroll{
-        display: none;
-    }
 
     /* GALERI-FOTO */
     .konteur{
@@ -295,6 +333,14 @@
     .fotok{
         width: 300px;
         padding: 20px;
+    }
+    /* carousel */
+    .carousel-item{
+        width: 100vw;
+    }
+    .carousel-item img{
+        width: 100vw;
+        height: max-content;
     }
 
     /* berita&informasi */
@@ -352,6 +398,10 @@
     }
     .dropdown-toggle::after{
         display: none !important;
+    }
+    /* button top scroll */
+    .topcoy{
+        display: none;
     }
 
 }
