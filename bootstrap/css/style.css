@@ -2,6 +2,7 @@ html, body {
     width: 100vw;
     overflow-x: hidden;
 }
+
 @media (max-width:720px) {
     *{
         font-size: 9px;
@@ -185,6 +186,9 @@ html, body {
     }
 }
 @media screen and (max-width:100vw) and (min-width:721px) {
+    *{
+        font-family: sans-serif;
+    }
     .asist2{
         text-decoration: none; 
         color: black; 
@@ -389,9 +393,12 @@ html, body {
         align-self: center;
     }
     .prestasi_mahasiswa{
-        max-width: min-content;
+        width: 800px;
         display: flex;
         flex-direction: column;
+    }
+    .presma{
+        width: 400px;
     }
     .teksgo{
         padding: 20px;
