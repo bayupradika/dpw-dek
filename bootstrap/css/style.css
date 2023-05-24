@@ -310,6 +310,7 @@ html, body {
     /* footer */
     .bgfooter{
         background-color: #243238;
+        color: white;
         padding-left: 50px;
         margin-top: 50px;
         
