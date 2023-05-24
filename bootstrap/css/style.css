@@ -2,15 +2,26 @@ html, body {
     width: 100vw;
     overflow-x: hidden;
 }
-
+*{
+    font-family: sans-serif;
+}
 @media (max-width:720px) {
     *{
         font-size: 9px;
     }
-
+    .totberita{
+        flex-direction: column;
+    }
+    .judul{
+        text-align: center;
+    }
     .kontengambar:hover{
         padding: 20px;
         padding-bottom: 0px;
+    }
+    .infojudul{
+        font-weight: 700;
+        text-decoration: underline;
     }
     .kontenjudul{
         text-align: center;
@@ -153,6 +164,7 @@ html, body {
     }
     .merek{
         margin-top: 66px;
+        width: 100vw;
     }
     .slideshowges{
         display: block;
