@@ -87,7 +87,10 @@ html, body {
     }
     .footer{
         padding: 20px;
-
+    }
+    .bgfooter{
+        background-color: #243238;
+        color: white;
     }
     .mitra{
         display: grid;  
