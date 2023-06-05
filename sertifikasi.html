@@ -1,98 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web ti unri</title>
-    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teknik informatika unri-beranda</title>
+  <link rel="stylesheet" href="../bootstrap/css/style.css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
 </head>
+
 <body>
-  <!-- Header -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="background-color: #243238;">
-    <div class="container d-flex justify-content-end h-20">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Universitas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Fakultas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Jurusan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Unduh Brosur</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pendaftaran</a>
-        </li>
-      </ul>
+  <!-- bg header -->
+  <div class="bgheader atas" style="width: 100vw;">
+    <ul class="gap-3">
+      <li><a href="https://unri.ac.id/">Universitas</a> </li>
+      <li><a href="https://ft.unri.ac.id/">Fakultas</a></li>
+      <li><a href="https://ee.ft.unri.ac.id/">Jurusan</a></li>
+      <li><a href="https://informatika.ft.unri.ac.id/wp-content/uploads/Brosur-TI-2021.pdf">Unduh Brosur</a></li>
+      <li><a href="https://pmb.unri.ac.id/">Pendaftaran</a></li>
+    </ul>
+  </div>
+  <nav class="navbar piring navbar-expand-lg bg-body-tertiary" style="width: 100vw;">
+    <div class="container gap-5">
+      <img class="logo" src="../asset/logo-ti.jpg" alt="logo ini">
+      <div class="hedtop" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a href="index.html" class="asist">Beranda</a>
+          <a class="nav-link" href="#">
+          <div class="dropdown">
+            <a class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Profil
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+              <li><a class="dropdown-item" href="profile/sejarah.html">Sejarah</a></li>
+              <li><a class="dropdown-item" href="profile/visimisi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="profile/tujuan.html">Tujuan</a></li>
+              <li><a class="dropdown-item" href="profile/sasaran.html">Sasaran</a></li>
+              <li><a class="dropdown-item" href="profile/strategi.html">Strategi</a></li>
+              <li><a class="dropdown-item" href="profile/akreditasi.html">Akreditasi</a></li>
+              <li><a class="dropdown-item" href="profile/dosen.html">Dosen</a></li>
+              <li><a class="dropdown-item" href="profile/tenaga_pendidik.html">Tenaga Kependidikan</a></li>
+              <li><a class="dropdown-item" href="profile/labrpl.html">Lab.RPL</a></li>
+              <li><a class="dropdown-item" href="profile/lab_komjar.html">Lab.Komputer & Jaringan</a></li>
+            </ul>
+          </div></a>
+          <a class="nav-link" href="#">
+            <div class="dropdown">
+              <a class="btn " type="" data-bs-toggle="dropdown" aria-expanded="false">
+                Akademik
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="produkDropdown">
+                <li><a class="dropdown-item" href="beranda/berita.html">Berita</a></li>
+                <li><a class="dropdown-item" href="beranda/event.html">Event</a></li>
+                <li><a class="dropdown-item" href="akademik/prestasi_mahasiswa.html">Prestasi Mahasiswa</a></li>
+                <li><a class="dropdown-item" href="akademik/jadwal_kuliah.html">Jadwal Kuliah</a></li>
+                <li><a class="dropdown-item" href="akademik/kalender_akademik.html">Kalender Akademik</a></li>
+                <li><a class="dropdown-item" href="akademik/kurikulum.html">Kurikulum</a></li>
+              </ul>
+            </div></a>
+          <a class="nav-link" href="#">
+            <div class="dropdown">
+              <a class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sertifikasi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="akademik/mikrotik_akademy.html">Mikrotik Akademy</a></li>
+              </ul>
+            </div></a>
+          <a class="nav-link" href="#">
+            <div class="dropdown">
+              <a class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galeri
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+                <li><a class="dropdown-item" href="foto.html">Foto</a></li>
+                <li><a class="dropdown-item" href="video.html">Video</a></li>
+                <li><a class="dropdown-item" href="virtualtour.html">Virtual Tour</a></li>
+              </ul>
+            </div></a>
+          <a class="asist2" href="kontak.html">Kontak</a>
+        </div>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
   </nav>
-  
-  <!-- Header 2 -->
-  <nav class="navbar navbar-expand-md" style="background-color: #ffffff;">
-    <div class="container d-flex justify-content-between vw-100">
-      <a class="navbar-brand" href="index.html"> <img srcset="asset/logo-ti.jpg" alt="jaaringankau salahtu"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button></div>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav px-5">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color: #243238;">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="profil.html" style="color: #243238;">Profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="akademik.html" style="color: #243238;">Akademik</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sertifikasi.html" style="color: #243238;">Sertifikasi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galeri.html" style="color: #243238;">Galeri</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kontak.html" style="color: #243238;">Kontak</a>
-          </li>
-        </ul>
-    </div>
-  </nav>
-  <div class="navbar navbar-expand-sm bg-dark navbar-dark h-20" style="background-color: #243238;"></div>
+
+  <!-- bg header2 -->
+  <div class="bgheader bawah" style="width: 100vw;"></div>
   <!-- SlideShow -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide slideshowges" data-bs-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img srcset="asset/slideshow1.jpg" alt="Gambar 1" class="w-100">
+      <div class="carousel-item active ">
+        <img src="../asset/slideshow1.jpg" alt="Gambar 1" class="gambr" >
       </div>
       <div class="carousel-item">
-        <img srcset="asset/slideshow2.jpg" alt="Gambar 2" class="w-100">>
+        <img src="../asset/slideshow2.jpg" alt="Gambar 2" class="gambr">
       </div>
       <div class="carousel-item">
-        <img srcset="asset/slideshow3.jpg" alt="Gambar 3" class="w-100">>
+        <img src="../asset/slideshow3.jpg" alt="Gambar 3" class="gambr">
       </div>
       <div class="carousel-item">
-        <img srcset="asset/slideshow4.jpg" alt="Gambar 4" class="w-100">>
+        <img src="../asset/slideshow4.jpg" alt="Gambar 4" class="gambr">
       </div>
       <div class="carousel-item">
-        <img srcset="asset/slideshow5.jpg" alt="Gambar 5" class="w-100">>
+        <img src="../asset/slideshow5.jpg" alt="Gambar 5" class="gambr">
       </div>
     </div>
-    <!-- Left and right controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <!-- Left and right controls --> 
+    <a class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button
-     class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    </a>
+    <a class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
-    </button>
+    </a>
   </div>
-<h1>sertifikasi</h1> 
+  <div class="sertif">
+    <img src="asset/sertif.jpg" alt="sertifikasi">
+  </div>
+  
   <!-- footer -->
   <div class="container-fluid bgfooter" >
     <div class="footer">

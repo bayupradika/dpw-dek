@@ -207,6 +207,10 @@ html, body {
         padding-top: 14px;
         padding-left: 7px;
     }
+    .sertif img{
+        width: 100vw;
+        padding: 20px;
+    }
 }
 @media screen and (max-width:100vw) and (min-width:721px) {
     *{
@@ -472,5 +476,8 @@ html, body {
     .topcoy{
         display: none;
     }
-
+    .sertif img{
+        width: 100vw;
+        padding: 50px;
+    }
 }
